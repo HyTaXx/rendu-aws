@@ -1,11 +1,12 @@
 export type AmplifyDependentResourcesAttributes = {
-  "function": {
-    "getUser": {
+  "storage": {
+    "users": {
       "Arn": "string",
-      "LambdaExecutionRole": "string",
-      "LambdaExecutionRoleArn": "string",
       "Name": "string",
-      "Region": "string"
+      "PartitionKeyName": "string",
+      "PartitionKeyType": "string",
+      "Region": "string",
+      "StreamArn": "string"
     }
   }
 }
